@@ -10,9 +10,19 @@ cut_off()
 def fib(max):
     a,b,n = 0,1,0
     while n < max:
-        print(b)
-        c = b
-        b = a + b
-        a = c
+        #print(b)
+        yield b
+        a,b=b,a+b
         n += 1
-fib(10)
+    return '--done--'
+g = fib(10)
+
+while True:
+    try:
+        x = next(g) #next的方法，《==》__next__()
+        print("g: ",x)
+    except StopIteration as e: # e --> try 和expect之间的错误代码
+                                # e中包含Stop。。。
+        print("error",e.value)
+        break
+
