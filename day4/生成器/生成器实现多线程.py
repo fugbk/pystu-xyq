@@ -4,9 +4,6 @@ __author__ = "Ang Li"
 def cut_off():
     cut_off_flog = "*"
     print(cut_off_flog.ljust(70, '*'))
- 
-#_*_coding:utf-8_*_
-
 
 import time
 def consumer(name):
