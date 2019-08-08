@@ -1,0 +1,13 @@
+# encoding = utf-8
+__author__ = "Ang Li"
+
+
+
+def bor():
+    print("bor",__name__)
+
+def foo():
+    print("foo",__name__)
+
+bor()
+foo()
