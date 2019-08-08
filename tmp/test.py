@@ -17,3 +17,17 @@ print(l)
 a = "Yesterday, the moon was blue,"
 
 print(a.replace(",","").split())
+
+print(id(word))
+
+def test():
+    local_ver = 32
+print(locals())
+
+test()
+
+
+a = {1:2,2:3,3:4,4:5,-1:-2,-3:23}
+
+print(sorted(a.items(),key= lambda x:x[1]))
+print(a)
