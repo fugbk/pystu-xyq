@@ -12,3 +12,8 @@ print(l)
 
 l[l.index(1)] = "c"
 print(l)
+
+
+a = "Yesterday, the moon was blue,"
+
+print(a.replace(",","").split())
