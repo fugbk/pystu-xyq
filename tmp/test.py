@@ -31,3 +31,10 @@ a = {1:2,2:3,3:4,4:5,-1:-2,-3:23}
 
 print(sorted(a.items(),key= lambda x:x[1]))
 print(a)
+
+
+a = [x for x in range(4)]
+b = [x for x in range(-7,1)]
+for i in zip(a,b):
+    print(i)
+
