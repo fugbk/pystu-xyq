@@ -6,6 +6,7 @@ def cut_off():
     print(cut_off_flog.ljust(70, '*'))
 
 
+import json
 info = {
     "age":20,
     "sex":"man",
@@ -13,9 +14,16 @@ info = {
 }
 
 with open("test.txt","w+") as f:
-    f.write(str(info))
+    f.write(json.dumps(info))
 
 with open("test.txt","r") as f:
-    data = eval(f.read())
-
+    data = json.loads(f.read())
     print(data["age"])
+
+
+# with open("test.txt","r") as f:
+#     data = eval(f.read())
+#
+#     print(data["age"])
+
+
