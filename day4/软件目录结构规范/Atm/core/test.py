@@ -1,12 +1,20 @@
 # encoding = utf-8
 __author__ = "Ang Li"
 import json
+import os
+import sys
 
-import shopping
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(BASE_DIR)
 
-print(shopping.cost_history_log)
+cost_history_log = os.path.join(BASE_DIR, "log", "cost_history.log")
+product_lists = os.path.join(BASE_DIR,"conf","product_price.list")
 
-with open(shopping.cost_history_log,"r") as f:
-    for line in f.readlines():
-        data = json.loads(line)
-        print(data["cost_id"])
+product_list = [
+    ('iphone', 7000),
+    ('mac', 17000),
+    ('book', 10),
+    ('watch', 300)
+]
+with open(product_lists,"w+") as f:
+    json.dump(product_list,f)

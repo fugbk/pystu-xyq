@@ -22,3 +22,6 @@
 {"user": "ali", "shopping_list": [["watch", 300]], "cost": 300, "cost_id": "20190812175937WNr1"}
 {"user": "ali", "shopping_list": [["watch", 300], ["book", 10], ["book", 10]], "cost": 320, "cost_id": "20190812180156cvZj"}
 {"time": "2019-08-12", "user": "ali", "shopping_list": [["watch", 300], ["mac", 17000]], "cost": 17300, "cost_id": "s20190812180511bZHi"}
+{"time": "2019-08-12", "user": "ali", "shopping_list": [["book", 10], ["mac", 17000]], "cost": 17010, "cost_id": "s20190812204231Jfxh"}
+{"time": "2019-08-12", "user": "ali", "shopping_list": [["mac", 17000]], "cost": 17000, "cost_id": "s20190812214801TLWb"}
+{"time": "2019-08-12", "user": "ali", "shopping_list": [["book", 10]], "cost": 10, "cost_id": "s20190812215336eHLs"}

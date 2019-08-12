@@ -35,7 +35,7 @@ def auths(func):
 def js(cost_pice,cost_id,**kwargs):
     login_user = kwargs["user"]
     print(login_user)
-    # with open(blance_out_file,"r+") as f:
+    # with open(balance_out_file,"r+") as f:
     #     blance_dir = json.load(f)
     #     user_balance = blance_dir[login_user]
     #     print(user_balance)
