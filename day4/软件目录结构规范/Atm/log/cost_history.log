@@ -1,0 +1,24 @@
+{"user": "ali", "shopping_list": [["mac", 17000], ["watch", 300]], "cost": 17300, "cost_id": "20190812143438Qdim"}
+{"user": "ali", "shopping_list": [["mac", 17000]], "cost": 17000, "cost_id": "20190812143622NhLU"}
+{"user": "ali", "shopping_list": [["book", 10]], "cost": 10, "cost_id": "20190812143718CXEW"}
+{"user": "ali", "shopping_list": [["watch", 300]], "cost": 300, "cost_id": "20190812144029aRkz"}
+{"user": "ali", "shopping_list": [["book", 10]], "cost": 10, "cost_id": "201908121441050xVK"}
+{"user": "ali", "shopping_list": [["book", 10]], "cost": 10, "cost_id": "201908121444151ruv"}
+{"user": "ali", "shopping_list": [["book", 10]], "cost": 10, "cost_id": "20190812144434V7Pk"}
+{"user": "ali", "shopping_list": [["mac", 17000]], "cost": 17000, "cost_id": "20190812144505S9cb"}
+{"user": "ali", "shopping_list": [["mac", 17000]], "cost": 17000, "cost_id": "20190812144532VOlB"}
+{"user": "ali", "shopping_list": [["book", 10]], "cost": 10, "cost_id": "20190812144618mkyL"}
+{"user": "ali", "shopping_list": [["book", 10]], "cost": 10, "cost_id": "20190812144645dHNX"}
+{"user": "ali", "shopping_list": [["book", 10]], "cost": 10, "cost_id": "20190812144811cqan"}
+{"user": "ali", "shopping_list": [["book", 10]], "cost": 10, "cost_id": "20190812144851t3d1"}
+{"user": "ali", "shopping_list": [["mac", 17000]], "cost": 17000, "cost_id": "20190812150623CtGI"}
+{"user": "ali", "shopping_list": [["iphone", 7000], ["mac", 17000], ["book", 10]], "cost": 24010, "cost_id": "20190812172059fEFa"}
+{"user": "ali", "shopping_list": [["book", 10], ["mac", 17000]], "cost": 17010, "cost_id": "20190812172154Zb8l"}
+{"user": "ali", "shopping_list": [["watch", 300], ["book", 10]], "cost": 310, "cost_id": "20190812172229Bdsq"}
+{"user": "ali", "shopping_list": [["watch", 300]], "cost": 300, "cost_id": "201908121730315loV"}
+{"user": "ali", "shopping_list": [["watch", 300], ["book", 10], ["mac", 17000]], "cost": 17310, "cost_id": "20190812173050SzmT"}
+{"user": "ali", "shopping_list": [["watch", 300], ["book", 10], ["watch", 300], ["watch", 300], ["watch", 300], ["mac", 17000], ["mac", 17000]], "cost": 35210, "cost_id": "20190812174526E7xI"}
+{"user": "ali", "shopping_list": [["watch", 300]], "cost": 300, "cost_id": "20190812175925UISR"}
+{"user": "ali", "shopping_list": [["watch", 300]], "cost": 300, "cost_id": "20190812175937WNr1"}
+{"user": "ali", "shopping_list": [["watch", 300], ["book", 10], ["book", 10]], "cost": 320, "cost_id": "20190812180156cvZj"}
+{"time": "2019-08-12", "user": "ali", "shopping_list": [["watch", 300], ["mac", 17000]], "cost": 17300, "cost_id": "s20190812180511bZHi"}

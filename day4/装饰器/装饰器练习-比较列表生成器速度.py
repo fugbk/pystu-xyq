@@ -21,6 +21,7 @@ def timer(func):
 @timer # 列表生成式
 def list():
     a = [ i+2 for i in range(100000000) ]
+    print(a)
 list()
 
 @timer # 列表生成器
