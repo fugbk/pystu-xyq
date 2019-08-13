@@ -40,7 +40,7 @@ def transfer(user):
     while True:
         flag = input("Type q to quit >>>")
         if flag == "q":
-            break
+            return 0
         else:
             with open(balance_out_file,"r") as f:
                 price_list = json.load(f)
@@ -66,19 +66,36 @@ def transfer(user):
                 print("Transfer Succeed!\nNow your balance is ",price_list[s_user])
                 salt = ''.join(random.sample(string.ascii_letters + string.digits, 4))
                 id = "t" + time.strftime("%Y%m%d%H%M%S", time.localtime()) + salt
+                foo = "transfer to " + d_user
                 log_info = {
                     "time": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
-                    "s_user": s_user,
-                    "d_user": d_user,
+                    "user": s_user,
                     "cost": -price,
                     "balance": price_list[s_user],
                     "type": "transfer",
                     "id": id,
-                    "des": "transfer"
+                    "des": foo
+                }
+
+                foo = s_user + " to transfer"
+                bar = "+" + str(price)
+                log_info_d = {
+                    "time": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
+                    "user": d_user,
+                    "cost": bar,
+                    "balance": price_list[d_user],
+                    "type": "transfer",
+                    "id": id,
+                    "des": foo
                 }
                 with open(balance_log, "a+") as f:
                     json.dump(log_info, f)
                     f.write("\n")
+                    json.dump(log_info_d, f)
+                    f.write("\n")
 
+
+def main():
+    pass
 if __name__ == "__main__":
-    transfer()
+    main()

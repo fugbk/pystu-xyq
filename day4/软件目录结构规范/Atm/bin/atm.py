@@ -13,6 +13,8 @@ balance_log = os.path.join(BASE_DIR, "log", "balance.log")
 users_list = os.path.join(BASE_DIR,"conf","atm_users.list")
 
 from core import transfers
+from core import query
+from core import repayment
 
 with open(users_list,"r") as f:
     user_list = json.load(f)
@@ -28,10 +30,10 @@ def auths(func):
                 func(*args,**kwargs,user_name=user_name)
             else:
                 print("Authorized Failed !")
-                exit()
+                return 2
         else:
             print("User %s are not exist" %(user_name))
-            exit()
+            return 1
     return wrapper
 
 def exit(func):
@@ -48,17 +50,6 @@ def user_manager():
 def atm_log(user):
     print("atm log module.")
     print(user)
-
-def repayment(user):
-    print("repayment module.")
-    print(user)
-
-def transfer(user):
-    print("transfer module.")
-
-
-def query():
-    print("query module.")
 
 @auths
 def control(user_name):
@@ -83,11 +74,11 @@ def control(user_name):
             print("Input Error, your choice must smaller than %s, please try again." %(len(task_list)))
             continue
         elif choice == "0":
-            query()
+            query.query(user=user_name)
         elif choice == "1":
             transfers.transfer(user=user_name)
         elif choice == "2":
-            repayment(user_name)
+            repayment.repayment(user=user_name)
         elif choice == "3":
             atm_log(user_name)
         elif choice == "4":

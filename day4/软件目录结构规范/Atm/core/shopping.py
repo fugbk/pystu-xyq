@@ -40,7 +40,7 @@ def cost_close(user, shopping_list, cost_price):
     salt = ''.join(random.sample(string.ascii_letters + string.digits, 4))
     id = "s" + time.strftime("%Y%m%d%H%M%S", time.localtime()) + salt
     cost_list = {
-        "time": time.strftime("%Y-%m-%d", time.localtime()),
+        "time": time.strftime("%Y-%m-%d %H:%M:S", time.localtime()),
         "user": user,
         "shopping_list": shopping_list,
         "cost": cost_price,
