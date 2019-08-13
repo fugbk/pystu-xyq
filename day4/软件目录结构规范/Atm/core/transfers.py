@@ -34,13 +34,13 @@ def auths(func):
             exit()
     return wrapper
 
-@auths
+
 def transfer(user):
     s_user = user
     while True:
         flag = input("Type q to quit >>>")
         if flag == "q":
-            exit()
+            break
         else:
             with open(balance_out_file,"r") as f:
                 price_list = json.load(f)
@@ -80,4 +80,5 @@ def transfer(user):
                     json.dump(log_info, f)
                     f.write("\n")
 
-transfer()
+if __name__ == "__main__":
+    transfer()

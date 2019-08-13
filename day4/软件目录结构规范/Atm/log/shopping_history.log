@@ -25,3 +25,4 @@
 {"time": "2019-08-12", "user": "ali", "shopping_list": [["book", 10], ["mac", 17000]], "cost": 17010, "cost_id": "s20190812204231Jfxh"}
 {"time": "2019-08-12", "user": "ali", "shopping_list": [["mac", 17000]], "cost": 17000, "cost_id": "s20190812214801TLWb"}
 {"time": "2019-08-12", "user": "ali", "shopping_list": [["book", 10]], "cost": 10, "cost_id": "s20190812215336eHLs"}
+{"time": "2019-08-13", "user": "ali", "shopping_list": [["mac", 17000], ["mac", 17000]], "cost": 34000, "cost_id": "s20190813130633avb8"}

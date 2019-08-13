@@ -3,10 +3,7 @@ __author__ = "Ang Li"
 
 import json
 import os
-import random
-import string
 import sys
-import time
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
@@ -15,17 +12,20 @@ balance_out_file = os.path.join(BASE_DIR, "conf", "balance_outstanding.txt")
 balance_log = os.path.join(BASE_DIR, "log", "balance.log")
 users_list = os.path.join(BASE_DIR,"conf","atm_users.list")
 
+from core import transfers
+
 with open(users_list,"r") as f:
     user_list = json.load(f)
 
 def auths(func):
     def wrapper(*args,**kwargs):
+        print("Welcome login ATM, please input your authentic key")
         user_name = input("user name: ")
         user_passwd = input("user passwd: ")
         if user_name in user_list:
             if user_passwd == str(user_list[user_name]):
-                print("Authorized succeed，WelCome %s login Atm" %(user_name))
-                func(*args,**kwargs,user=user_name)
+                print("Authorized succeed，WelCome %s" %(user_name))
+                func(*args,**kwargs,user_name=user_name)
             else:
                 print("Authorized Failed !")
                 exit()
@@ -34,44 +34,67 @@ def auths(func):
             exit()
     return wrapper
 
+def exit(func):
+    def warpper(*args,**kwargs):
+        func(*args,**kwargs)
+        contorl = input("Type 'q' to quit >>>")
+        if contorl == "q":
+            return "quit"
+    return warpper
+
+def user_manager():
+    print("user manager module.")
+
+def atm_log(user):
+    print("atm log module.")
+    print(user)
+
+def repayment(user):
+    print("repayment module.")
+    print(user)
+
+def transfer(user):
+    print("transfer module.")
+
+
+def query():
+    print("query module.")
+
 @auths
-def js(cost_price, cost_id, **kwargs):
-    login_user = kwargs["user"]
-    with open(balance_out_file, "r+") as f:
-        balance_list = json.load(f)
-        user_balance = balance_list[login_user]
-    if user_balance < cost_price:
-        print("not enough mooney")
-        exit()
-    else:
-        last_balance = user_balance - cost_price * 1.05
-        balance_list[login_user] = last_balance
+def control(user_name):
+    flag = True
+    task_list = [
+        "Query",
+        "Transfers",
+        "Repayment",
+        "Atm Log",
+        "User Manager",
+    ]
 
-    with open(balance_out_file, "w+") as f:
-        json.dump(balance_list,f)
-    print("balance mooney is",last_balance)
-    time_strip = time.strftime("%Y-%m-%d %H:%M", time.localtime())
-    salt = ''.join(random.sample(string.ascii_letters + string.digits, 4))
-    id = "a" + time.strftime("%Y%m%d%H%M%S", time.localtime()) + salt
+    while flag:
+        print("What are your want to do ?")
+        for item,index in enumerate(task_list):
+            print("\t", item, " ", index)
+        choice = input("Ple Enter Your Choice, type q to quit: ")
 
-    log_info = {
-        "time":time_strip,
-        "user":login_user,
-        "cost":-cost_price,
-        "balance":last_balance,
-        "type":"internet payment",
-        "id":id,
-        "des":cost_id
-    }
+        if choice == "q":
+            flag = False
+        elif int(choice) >= len(task_list):
+            print("Input Error, your choice must smaller than %s, please try again." %(len(task_list)))
+            continue
+        elif choice == "0":
+            query()
+        elif choice == "1":
+            transfers.transfer(user=user_name)
+        elif choice == "2":
+            repayment(user_name)
+        elif choice == "3":
+            atm_log(user_name)
+        elif choice == "4":
+            user_manager()
+        else:
+            print("Syntax error.")
+            flag = False
+control()
 
-    with open(balance_log, "a+") as f:
-        json.dump(log_info,f)
-        f.write("\n")
 
-#js(200,"fhsjddkahj")
-
-def main():
-    pass
-
-if __name__ == "__main__":
-    main()

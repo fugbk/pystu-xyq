@@ -7,7 +7,7 @@ import sys
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
 
-cost_history_log = os.path.join(BASE_DIR, "log", "cost_history.log")
+cost_history_log = os.path.join(BASE_DIR, "log", "shopping_history.log")
 product_lists = os.path.join(BASE_DIR,"conf","product_price.list")
 
 product_list = [

@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82d086c8-6589-44a9-8f62-8960aeddd685" name="默认的" comment="软件目录结构规范">
-      <change afterPath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/bin/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/conf/atm_users.list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/conf/balance_outstanding.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/conf/product_price.list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core/transfers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/log/balance.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core/close_shopping.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python-stu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-stu.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/bin/atm.py" beforeDir="false" afterPath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/bin/atm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/conf/blance_outstanding.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/conf/balance_outstanding.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/conf/balance_outstanding.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core/shopping.py" beforeDir="false" afterPath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core/shopping.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/log/blance.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/log/cost_history.log" beforeDir="false" afterPath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/log/cost_history.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core/transfers.py" beforeDir="false" afterPath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core/transfers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/log/balance.log" beforeDir="false" afterPath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/log/balance.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/log/cost_history.log" beforeDir="false" afterPath="$PROJECT_DIR$/day4/软件目录结构规范/Atm/log/shopping_history.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.transfers">
+  <component name="RunManager" selected="Python.atm (1)">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,7 +107,8 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="生成器实现多线程" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="生成器实现多线程" type="PythonConfigurationType" factoryName="Python">
+      <module name="python-stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -123,12 +119,15 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python-stu" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day4/生成器/生成器实现多线程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="atm (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-stu" />
@@ -152,6 +151,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="close_shoping" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-stu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="H:\python-stu\day4\软件目录结构规范\Atm\core\close_shopping.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="shopping" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,28 +187,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core/shopping.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python-stu" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,19 +249,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.生成器实现多线程" />
       <item itemvalue="Python.shopping" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.test (1)" />
       <item itemvalue="Python.atm (1)" />
       <item itemvalue="Python.transfers" />
+      <item itemvalue="Python.close_shoping" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.transfers" />
-        <item itemvalue="Python.shopping" />
         <item itemvalue="Python.atm (1)" />
+        <item itemvalue="Python.shopping" />
+        <item itemvalue="Python.close_shoping" />
+        <item itemvalue="Python.transfers" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -279,6 +279,8 @@
       <workItem from="1565271322122" duration="1619000" />
       <workItem from="1565405687828" duration="5193000" />
       <workItem from="1565509394001" duration="4259000" />
+      <workItem from="1565659374896" duration="5553000" />
+      <workItem from="1565668018108" duration="2683000" />
     </task>
     <task id="LOCAL-00001" summary="fsfdsaf">
       <created>1561284414125</created>
@@ -390,13 +392,17 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/git_repo$pickle.coverage" NAME="pickle Coverage Results" MODIFIED="1565510755616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/json&amp;pickle数据序列化" />
-    <SUITE FILE_PATH="coverage/git_repo$pickle_test.coverage" NAME="pickle-test Coverage Results" MODIFIED="1565511328219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/json&amp;pickle数据序列化" />
-    <SUITE FILE_PATH="coverage/git_repo$json_pickle.coverage" NAME="json&amp;pickle数据序列化 Coverage Results" MODIFIED="1565509535239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/json&amp;pickle数据序列化" />
-    <SUITE FILE_PATH="coverage/git_repo$test.coverage" NAME="test Coverage Results" MODIFIED="1565617610031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/bin" />
-    <SUITE FILE_PATH="coverage/git_repo$transfers.coverage" NAME="transfers Coverage Results" MODIFIED="1565621031110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
     <SUITE FILE_PATH="coverage/git_repo$shopping.coverage" NAME="shopping Coverage Results" MODIFIED="1565618009706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
+    <SUITE FILE_PATH="coverage/git_repo$transfers.coverage" NAME="transfers Coverage Results" MODIFIED="1565621031110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
+    <SUITE FILE_PATH="coverage/python_stu$shopping.coverage" NAME="shopping Coverage Results" MODIFIED="1565672781151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
+    <SUITE FILE_PATH="coverage/python_stu$atm__1_.coverage" NAME="atm (1) Coverage Results" MODIFIED="1565673084815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/bin" />
+    <SUITE FILE_PATH="coverage/git_repo$json_pickle.coverage" NAME="json&amp;pickle数据序列化 Coverage Results" MODIFIED="1565509535239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/json&amp;pickle数据序列化" />
+    <SUITE FILE_PATH="coverage/git_repo$pickle.coverage" NAME="pickle Coverage Results" MODIFIED="1565510755616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/json&amp;pickle数据序列化" />
     <SUITE FILE_PATH="coverage/git_repo$atm.coverage" NAME="atm Coverage Results" MODIFIED="1565533049149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录组织规范/Atm/bin" />
+    <SUITE FILE_PATH="coverage/python_stu$transfers.coverage" NAME="transfers Coverage Results" MODIFIED="1565659675330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
+    <SUITE FILE_PATH="coverage/git_repo$pickle_test.coverage" NAME="pickle-test Coverage Results" MODIFIED="1565511328219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/json&amp;pickle数据序列化" />
+    <SUITE FILE_PATH="coverage/git_repo$test.coverage" NAME="test Coverage Results" MODIFIED="1565617610031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/bin" />
+    <SUITE FILE_PATH="coverage/python_stu$close_shoping.coverage" NAME="close_shoping Coverage Results" MODIFIED="1565672502279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
     <SUITE FILE_PATH="coverage/git_repo$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1565615794696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
     <SUITE FILE_PATH="coverage/git_repo$atm__1_.coverage" NAME="atm (1) Coverage Results" MODIFIED="1565617993627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/bin" />
   </component>

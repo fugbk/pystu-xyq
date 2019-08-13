@@ -8,10 +8,10 @@ import string
 import sys
 import time
 
+import close_shopping
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
-
-from bin import atm
 
 cost_history_log = os.path.join(BASE_DIR, "log", "shopping_history.log")
 product_lists = os.path.join(BASE_DIR,"conf","product_price.list")
@@ -50,7 +50,7 @@ def cost_close(user, shopping_list, cost_price):
         json.dump(cost_list, f)
         f.write("\n")
     print("Just a moment, please")
-    atm.js(cost_price, id)
+    close_shopping.js(cost_price, id)
     return cost_price, id
 
 
