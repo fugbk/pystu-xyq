@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82d086c8-6589-44a9-8f62-8960aeddd685" name="默认的" comment="atm-查询及还款接口">
-      <change afterPath="$PROJECT_DIR$/附录/面向对象/多态-抽象类.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/附录/面向对象/多态.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/附录/面向对象/多继承.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/附录/面向对象/校园IT管理系统.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/附录/面向对象/类的封装.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/附录/面向对象/面向对象.py" afterDir="false" />
+    <list default="true" id="82d086c8-6589-44a9-8f62-8960aeddd685" name="默认的" comment="面向对象-类的三大特性">
+      <change afterPath="$PROJECT_DIR$/附录/面向对象/11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/附录/面向对象/未命名文件.pos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/附录/面向对象/校园IT管理系统.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/附录/面向对象/校园IT管理系统.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/面向对象/校园IT管理系统.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +55,7 @@
     <property name="FullScreen" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/附录/面向对象" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../deepfakes" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -84,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.多态-抽象类">
+  <component name="RunManager" selected="Python.校园IT管理系统">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,6 +139,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day4/生成器/生成器实现多线程.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="11" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-stu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/附录/面向对象" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/附录/面向对象/11.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="校园IT管理系统" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-stu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/附录/面向对象" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/附录/面向对象/校园IT管理系统.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -271,17 +313,15 @@
     <list>
       <item itemvalue="Python.生成器实现多线程" />
       <item itemvalue="Python.transfers" />
-      <item itemvalue="Python.多继承" />
-      <item itemvalue="Python.类的封装" />
-      <item itemvalue="Python.多态" />
       <item itemvalue="Python.多态-抽象类" />
+      <item itemvalue="Python.校园IT管理系统" />
+      <item itemvalue="Python.11" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.校园IT管理系统" />
+        <item itemvalue="Python.11" />
         <item itemvalue="Python.多态-抽象类" />
-        <item itemvalue="Python.多态" />
-        <item itemvalue="Python.类的封装" />
-        <item itemvalue="Python.多继承" />
         <item itemvalue="Python.transfers" />
       </list>
     </recent_temporary>
@@ -302,7 +342,9 @@
       <workItem from="1565659374896" duration="5553000" />
       <workItem from="1565668018108" duration="10046000" />
       <workItem from="1565838705949" duration="2861000" />
-      <workItem from="1566179316133" duration="11514000" />
+      <workItem from="1566179316133" duration="11725000" />
+      <workItem from="1566264736595" duration="9276000" />
+      <workItem from="1566294975274" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="fsfdsaf">
       <created>1561284414125</created>
@@ -374,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565689746500</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="面向对象-类的三大特性">
+      <created>1566209555970</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1566209555970</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +465,8 @@
     <MESSAGE value="json&amp;pickle数据序列化" />
     <MESSAGE value="atm-控制器" />
     <MESSAGE value="atm-查询及还款接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="atm-查询及还款接口" />
+    <MESSAGE value="面向对象-类的三大特性" />
+    <option name="LAST_COMMIT_MESSAGE" value="面向对象-类的三大特性" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -440,12 +490,14 @@
     <SUITE FILE_PATH="coverage/git_repo$pickle.coverage" NAME="pickle Coverage Results" MODIFIED="1565510755616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/json&amp;pickle数据序列化" />
     <SUITE FILE_PATH="coverage/git_repo$atm.coverage" NAME="atm Coverage Results" MODIFIED="1565533049149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录组织规范/Atm/bin" />
     <SUITE FILE_PATH="coverage/python_stu$repayment.coverage" NAME="repayment Coverage Results" MODIFIED="1565680454935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
+    <SUITE FILE_PATH="coverage/python_stu$11.coverage" NAME="11 Coverage Results" MODIFIED="1566292802984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/附录/面向对象" />
     <SUITE FILE_PATH="coverage/python_stu$transfers.coverage" NAME="transfers Coverage Results" MODIFIED="1565681572072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
     <SUITE FILE_PATH="coverage/python_stu$.coverage" NAME="多态 Coverage Results" MODIFIED="1566203889887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/附录/面向对象" />
     <SUITE FILE_PATH="coverage/git_repo$pickle_test.coverage" NAME="pickle-test Coverage Results" MODIFIED="1565511328219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/json&amp;pickle数据序列化" />
     <SUITE FILE_PATH="coverage/git_repo$test.coverage" NAME="test Coverage Results" MODIFIED="1565617610031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/bin" />
     <SUITE FILE_PATH="coverage/python_stu$query.coverage" NAME="query Coverage Results" MODIFIED="1565678785053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
     <SUITE FILE_PATH="coverage/python_stu$close_shoping.coverage" NAME="close_shoping Coverage Results" MODIFIED="1565672502279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
+    <SUITE FILE_PATH="coverage/python_stu$IT.coverage" NAME="校园IT管理系统 Coverage Results" MODIFIED="1566294083391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/附录/面向对象" />
     <SUITE FILE_PATH="coverage/git_repo$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1565615794696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
     <SUITE FILE_PATH="coverage/git_repo$atm__1_.coverage" NAME="atm (1) Coverage Results" MODIFIED="1565617993627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/bin" />
   </component>
