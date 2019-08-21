@@ -143,6 +143,6 @@ sh2.show_balance()
 sz1.show_balance()
 headquater.count_total_balance()
 headquater.count_staff_num()
-#print(headquater.branches)
+#print(headquarter.branches)
 # 退学
 stu5.class_obj.drop_out(stu5)
