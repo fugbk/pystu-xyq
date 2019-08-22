@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82d086c8-6589-44a9-8f62-8960aeddd685" name="默认的" comment="面向对象-校园IT管理系统各组件功能完成">
+      <change afterPath="$PROJECT_DIR$/附录/2 面向对象进阶/2.1 类方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/附录/2 面向对象进阶/类方法2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/附录/面向对象/校园IT管理系统.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/面向对象/校园IT管理系统.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/附录/面向对象/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/1 面向对象/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/附录/面向对象/多态-抽象类.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/1 面向对象/多态-抽象类.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/附录/面向对象/多态.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/1 面向对象/多态.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/附录/面向对象/多继承.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/1 面向对象/多继承.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/附录/面向对象/未命名文件.pos" beforeDir="false" afterPath="$PROJECT_DIR$/附录/1 面向对象/未命名文件.pos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/附录/面向对象/校园IT管理系统-范例.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/1 面向对象/校园IT管理系统-范例.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/附录/面向对象/校园IT管理系统.png" beforeDir="false" afterPath="$PROJECT_DIR$/附录/1 面向对象/校园IT管理系统.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/附录/面向对象/校园IT管理系统.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/1 面向对象/校园IT管理系统.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/附录/面向对象/类的封装.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/1 面向对象/类的封装.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/附录/面向对象/面向对象.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/1 面向对象/面向对象.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.校园IT管理系统">
+  <component name="RunManager" selected="Python.类方法2">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,28 +161,6 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="多态-抽象类" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python-stu" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/附录/面向对象" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/附录/面向对象/多态-抽象类.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="生成器实现多线程" type="PythonConfigurationType" factoryName="Python">
       <module name="python-stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,22 +183,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="类方法2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/附录/面向对象" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/附录/2 面向对象进阶" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="H:\python-stu\附录\面向对象\校园IT管理系统-范例.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/附录/2 面向对象进阶/类方法2.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2.1 类方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-stu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/附录/2 面向对象进阶" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/附录/2 面向对象进阶/2.1 类方法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -462,19 +467,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.生成器实现多线程" />
-      <item itemvalue="Python.多态-抽象类" />
       <item itemvalue="Python.校园IT管理系统" />
-      <item itemvalue="Python.11" />
       <item itemvalue="Python.校园IT管理系统-范例" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.2.1 类方法" />
+      <item itemvalue="Python.类方法2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.类方法2" />
+        <item itemvalue="Python.2.1 类方法" />
         <item itemvalue="Python.校园IT管理系统" />
         <item itemvalue="Python.校园IT管理系统-范例" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.11" />
-        <item itemvalue="Python.多态-抽象类" />
       </list>
     </recent_temporary>
   </component>
@@ -500,7 +505,7 @@
       <workItem from="1566295389618" duration="274000" />
       <workItem from="1566350909896" duration="159000" />
       <workItem from="1566351081875" duration="18628000" />
-      <workItem from="1566438868147" duration="4713000" />
+      <workItem from="1566438868147" duration="10547000" />
     </task>
     <task id="LOCAL-00001" summary="fsfdsaf">
       <created>1561284414125</created>
@@ -593,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566382227497</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="面向对象-校园IT管理系统各组件功能完成">
+      <created>1566444953336</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1566444953336</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
