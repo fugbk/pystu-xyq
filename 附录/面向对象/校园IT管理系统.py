@@ -7,20 +7,20 @@ import datetime
 class School(object):
     """总部学校"""
     def __init__(self, name, addr, website):
-        self.name = name
-        self.address = addr
-        self.website = website
-        self.balance = 0
+        self.name = name # 校区名字
+        self.address = addr # 校区地址
+        self.website = website # 校区网址
+        self.balance = 0 # 校区余额
         self.branches = {}  # 下属分校
-        self.class_list = []
-        self.staff_list = {}
-        self.branches[name] = self
+        self.class_list = [] # 开设的班级
+        self.staff_list = [] # 属于这个分校的员工，包含教师
+        self.branches[name] = self # 先把总部加入分校列表
         print("创建了校区【%s】, 地址:【%s】，网址:【%s】。" % (name, addr, website))
 
     def count_staff_num(self):
         """统计员工数量"""
         print("-----各校区员工数量-----")
-        staff_total_num = 0
+        staff_total_num = 0 # 所有校区总员工数量
         for k,v in self.branches.items():
             branch_staff_num = len(v.staff_list)
             print("%s: %s" %(k,branch_staff_num))
@@ -40,8 +40,12 @@ class School(object):
         print("总计: %s" %(stu_total_num))
 
     def staff_enrollment(self, staff_obj):
-        """员工入职"""
-        pass
+        """
+        员工入职
+        :param staff_obj: 新入职员工
+        :return:
+        """
+        self.staff_list.append(staff_obj)
 
     def count_total_revenue(self):
         """统计总收入"""
@@ -58,11 +62,21 @@ class School(object):
         for k,v in self.branches.items():
             for a in v.class_list:
                 print(a)
+
     def count_branch_school(self):
         """统计校区"""
         print("-----------现有校区----------")
         for k,v in self.branches.items():
             print("%s地区: %s" %(v.address, v.name))
+
+    def pay_salary(self):
+        print("开始发工资了。。。")
+        for v in self.branches.values():
+            for i in v.staff_list:
+                i.balance += i.salary
+                self.balance -= i.salary
+                print("%s 发了工资 %d 元，账户余额%s" %(i.name,i.salary,i.balance))
+        print("总校资金剩余：%s" %(self.balance))
 
 
 class BranchSchool(School):
@@ -111,10 +125,10 @@ class Staff(object):
         self.age = age
         self.balance = balance
         self.salary = salary
-        self.position = position
-        self.dept = dept
-        self.school_obj = school_obj
-        self.school_obj.staff_list[name] = self
+        self.position = position # 职位
+        self.dept = dept # 所属部门
+        self.school_obj = school_obj # 所属校区
+        self.school_obj.staff_enrollment(self)
         print("【%s】校区的【%s】部门，入职一位新员工【%s】，职位是【%s】。" %(school_obj.name,dept,name,position))
     def push_card(self):
         pass
@@ -125,7 +139,6 @@ class Teacher(Staff):
     def __init__(self, name, age, balance, salary, position, dept, school_obj, course_obj):
         super().__init__(name, age, balance, salary, position, dept, school_obj)
         self.course_obj = course_obj
-     #   print("教师【%s】在【%s】校区入职,教授【%s】, 月薪【%s】。" %(name,school_obj.name,course_obj.name,salary))
 
     def teacher_class(self, class_obj, day):
         print("教师【%s】在【%s】上课了【%s】天" % (self.name, class_obj, day))
@@ -153,8 +166,8 @@ class Student(object):
 # 实例化校区
 headquarter = School("北京总部", "北京昌平", "www.lastack.com")
 sz1 = BranchSchool("失落国度","深圳南山","www.lastack.com", headquarter)
-sz2 = BranchSchool("虹桥计划","深圳安良","www.lastack.com", headquarter)
-sh1 = BranchSchool("安良拓荒","上海虹桥","www.lastack.com", headquarter)
+sz2 = BranchSchool("旭日东升之所","深圳安良","www.lastack.com", headquarter)
+sh1 = BranchSchool("巨兽垂暮","上海虹桥","www.lastack.com", headquarter)
 sh2 = BranchSchool("要素黎明","上海边江","www.lastack.com", headquarter)
 
 # 实例化课程
@@ -207,3 +220,6 @@ headquarter.count_staff_num()
 
 # 统计校区学员数
 headquarter.count_stu_num()
+
+# 发工资
+headquarter.pay_salary()

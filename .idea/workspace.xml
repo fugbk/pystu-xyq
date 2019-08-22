@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82d086c8-6589-44a9-8f62-8960aeddd685" name="默认的" comment="面向对象-校园IT管理系统（基本框架）">
-      <change afterPath="$PROJECT_DIR$/附录/面向对象/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-stu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-stu.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="82d086c8-6589-44a9-8f62-8960aeddd685" name="默认的" comment="面向对象-校园IT管理系统各组件功能完成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/附录/面向对象/11.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/面向对象/校园IT管理系统-范例.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/附录/面向对象/校园IT管理系统.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/面向对象/校园IT管理系统.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -225,6 +220,9 @@
       <module name="python-stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/附录/面向对象" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -376,6 +374,9 @@
       <module name="python-stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/附录/面向对象" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -498,7 +499,8 @@
       <workItem from="1566294975274" duration="38000" />
       <workItem from="1566295389618" duration="274000" />
       <workItem from="1566350909896" duration="159000" />
-      <workItem from="1566351081875" duration="18443000" />
+      <workItem from="1566351081875" duration="18628000" />
+      <workItem from="1566438868147" duration="4713000" />
     </task>
     <task id="LOCAL-00001" summary="fsfdsaf">
       <created>1561284414125</created>
@@ -584,7 +586,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566295458990</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="面向对象-校园IT管理系统各组件功能完成">
+      <created>1566382227497</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1566382227497</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,7 +637,8 @@
     <MESSAGE value="atm-查询及还款接口" />
     <MESSAGE value="面向对象-类的三大特性" />
     <MESSAGE value="面向对象-校园IT管理系统（基本框架）" />
-    <option name="LAST_COMMIT_MESSAGE" value="面向对象-校园IT管理系统（基本框架）" />
+    <MESSAGE value="面向对象-校园IT管理系统各组件功能完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="面向对象-校园IT管理系统各组件功能完成" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -666,7 +676,7 @@
     <SUITE FILE_PATH="coverage/git_repo$test.coverage" NAME="test Coverage Results" MODIFIED="1565617610031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/bin" />
     <SUITE FILE_PATH="coverage/python_stu$query.coverage" NAME="query Coverage Results" MODIFIED="1565678785053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
     <SUITE FILE_PATH="coverage/python_stu$close_shoping.coverage" NAME="close_shoping Coverage Results" MODIFIED="1565672502279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
-    <SUITE FILE_PATH="coverage/python_stu$IT.coverage" NAME="校园IT管理系统 Coverage Results" MODIFIED="1566382071734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/附录/面向对象" />
+    <SUITE FILE_PATH="coverage/python_stu$IT.coverage" NAME="校园IT管理系统 Coverage Results" MODIFIED="1566444935934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/附录/面向对象" />
     <SUITE FILE_PATH="coverage/git_repo$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1565615794696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
     <SUITE FILE_PATH="coverage/git_repo$atm__1_.coverage" NAME="atm (1) Coverage Results" MODIFIED="1565617993627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/bin" />
   </component>
