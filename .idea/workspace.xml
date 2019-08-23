@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82d086c8-6589-44a9-8f62-8960aeddd685" name="默认的" comment="面向对象-校园IT管理系统各组件功能完成">
+    <list default="true" id="82d086c8-6589-44a9-8f62-8960aeddd685" name="默认的" comment="面向对象进阶-类方法属性方法">
+      <change afterPath="$PROJECT_DIR$/附录/2 面向对象进阶/2.2 反射.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/附录/2 面向对象进阶/new方法实现单例模式.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/附录/2 面向对象进阶/test_modle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/附录/2 面向对象进阶/动态加载模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/附录/2 面向对象进阶/双下划线方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/附录/2 面向对象进阶/反射.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/附录/2 面向对象进阶/反射的应用场景.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-stu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-stu.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/附录/2 面向对象进阶/2.1 类方法.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/2 面向对象进阶/2.1 类方法.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/附录/2 面向对象进阶/类方法2.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/2 面向对象进阶/class_method.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,17 +64,18 @@
     <property name="FullScreen" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../deepfakes/faceswap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/附录/2 面向对象进阶" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\python-stu\附录\2 面向对象进阶" />
       <recent name="H:\python-stu\附录\面向对象" />
       <recent name="F:\git-repo\day4\json&amp;pickle数据序列化" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\python-stu\附录\面向对象" />
       <recent name="F:\git-repo\day4\json&amp;pickle数据序列化" />
     </key>
@@ -83,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2.1 类方法">
+  <component name="RunManager" selected="Python.new方法实现单例模式">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,7 +181,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="类方法2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2.2 反射" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -185,35 +194,38 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/附录/2 面向对象进阶/类方法2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/附录/2 面向对象进阶/2.2 反射.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2.1 类方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="反射的应用场景" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/附录/2 面向对象进阶" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/附录/2 面向对象进阶/2.1 类方法.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/附录/2 面向对象进阶/反射的应用场景.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="校园IT管理系统-范例" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="动态加载模块" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,21 +233,21 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/附录/面向对象" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/附录/2 面向对象进阶" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/附录/面向对象/校园IT管理系统-范例.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/附录/2 面向对象进阶/动态加载模块.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="校园IT管理系统" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="双下划线方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -243,12 +255,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/附录/面向对象" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/附录/2 面向对象进阶" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/附录/面向对象/校园IT管理系统.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/附录/2 面向对象进阶/双下划线方法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="反射" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-stu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/附录/2 面向对象进阶" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/附录/2 面向对象进阶/反射.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -345,7 +379,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="new方法实现单例模式" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -353,36 +387,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python-stu" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/附录/面向对象" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/附录/2 面向对象进阶" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/附录/面向对象/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/附录/2 面向对象进阶/new方法实现单例模式.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -459,19 +471,13 @@
     </configuration>
     <list>
       <item itemvalue="Python.生成器实现多线程" />
-      <item itemvalue="Python.校园IT管理系统" />
-      <item itemvalue="Python.校园IT管理系统-范例" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.2.1 类方法" />
-      <item itemvalue="Python.类方法2" />
+      <item itemvalue="Python.2.2 反射" />
+      <item itemvalue="Python.new方法实现单例模式" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.2.1 类方法" />
-        <item itemvalue="Python.类方法2" />
-        <item itemvalue="Python.校园IT管理系统" />
-        <item itemvalue="Python.校园IT管理系统-范例" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.new方法实现单例模式" />
+        <item itemvalue="Python.2.2 反射" />
       </list>
     </recent_temporary>
   </component>
@@ -498,7 +504,9 @@
       <workItem from="1566350909896" duration="159000" />
       <workItem from="1566351081875" duration="18628000" />
       <workItem from="1566438868147" duration="12345000" />
-      <workItem from="1566467825791" duration="232000" />
+      <workItem from="1566467825791" duration="743000" />
+      <workItem from="1566525254369" duration="8477000" />
+      <workItem from="1566542352456" duration="12133000" />
     </task>
     <task id="LOCAL-00001" summary="fsfdsaf">
       <created>1561284414125</created>
@@ -605,7 +613,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566463228396</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="面向对象进阶-类方法属性方法">
+      <created>1566468332332</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1566468332332</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -650,7 +665,8 @@
     <MESSAGE value="面向对象-类的三大特性" />
     <MESSAGE value="面向对象-校园IT管理系统（基本框架）" />
     <MESSAGE value="面向对象-校园IT管理系统各组件功能完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="面向对象-校园IT管理系统各组件功能完成" />
+    <MESSAGE value="面向对象进阶-类方法属性方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="面向对象进阶-类方法属性方法" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -660,6 +676,11 @@
           <url>file://$PROJECT_DIR$/../deepfakes/faceswap/lib/model/losses.py</url>
           <line>7</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/附录/2 面向对象进阶/2.1 类方法.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -676,16 +697,20 @@
     <SUITE FILE_PATH="coverage/git_repo$transfers.coverage" NAME="transfers Coverage Results" MODIFIED="1565621031110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
     <SUITE FILE_PATH="coverage/python_stu$shopping.coverage" NAME="shopping Coverage Results" MODIFIED="1565672781151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
     <SUITE FILE_PATH="coverage/python_stu$_.coverage" NAME="多态-抽象类 Coverage Results" MODIFIED="1566207957625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/附录/面向对象" />
+    <SUITE FILE_PATH="coverage/python_stu$2.coverage" NAME="类方法2 Coverage Results" MODIFIED="1566544503053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/附录/2 面向对象进阶" />
     <SUITE FILE_PATH="coverage/python_stu$atm__1_.coverage" NAME="atm (1) Coverage Results" MODIFIED="1565680619648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/bin" />
+    <SUITE FILE_PATH="coverage/python_stu$new.coverage" NAME="new方法实现单例模式 Coverage Results" MODIFIED="1566556975705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/附录/2 面向对象进阶" />
     <SUITE FILE_PATH="coverage/git_repo$json_pickle.coverage" NAME="json&amp;pickle数据序列化 Coverage Results" MODIFIED="1565509535239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/json&amp;pickle数据序列化" />
+    <SUITE FILE_PATH="coverage/python_stu$test_modle.coverage" NAME="test_modle Coverage Results" MODIFIED="1566543574807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/附录/2 面向对象进阶" />
     <SUITE FILE_PATH="coverage/git_repo$pickle.coverage" NAME="pickle Coverage Results" MODIFIED="1565510755616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/json&amp;pickle数据序列化" />
     <SUITE FILE_PATH="coverage/git_repo$atm.coverage" NAME="atm Coverage Results" MODIFIED="1565533049149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录组织规范/Atm/bin" />
     <SUITE FILE_PATH="coverage/python_stu$repayment.coverage" NAME="repayment Coverage Results" MODIFIED="1565680454935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
     <SUITE FILE_PATH="coverage/python_stu$11.coverage" NAME="11 Coverage Results" MODIFIED="1566292802984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/附录/面向对象" />
     <SUITE FILE_PATH="coverage/python_stu$transfers.coverage" NAME="transfers Coverage Results" MODIFIED="1565681572072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
-    <SUITE FILE_PATH="coverage/python_stu$.coverage" NAME="多态 Coverage Results" MODIFIED="1566203889887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/附录/面向对象" />
+    <SUITE FILE_PATH="coverage/python_stu$.coverage" NAME="双下划线方法 Coverage Results" MODIFIED="1566553354643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/附录/2 面向对象进阶" />
     <SUITE FILE_PATH="coverage/git_repo$pickle_test.coverage" NAME="pickle-test Coverage Results" MODIFIED="1565511328219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/json&amp;pickle数据序列化" />
     <SUITE FILE_PATH="coverage/git_repo$test.coverage" NAME="test Coverage Results" MODIFIED="1565617610031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/bin" />
+    <SUITE FILE_PATH="coverage/python_stu$2_2_.coverage" NAME="2.2 反射 Coverage Results" MODIFIED="1566549174952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/附录/2 面向对象进阶" />
     <SUITE FILE_PATH="coverage/python_stu$query.coverage" NAME="query Coverage Results" MODIFIED="1565678785053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
     <SUITE FILE_PATH="coverage/python_stu$close_shoping.coverage" NAME="close_shoping Coverage Results" MODIFIED="1565672502279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
     <SUITE FILE_PATH="coverage/python_stu$IT.coverage" NAME="校园IT管理系统 Coverage Results" MODIFIED="1566444935934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/附录/面向对象" />
