@@ -16,7 +16,8 @@ print("启动监听...")
 
 while True: # 可接收多个链接
     # 被动接受TCP客户的连接,(阻塞式)等待连接的到来, 这时候返回的是一个元组(连接对象, 客户端地址)
-    conn, client_addr = phone.accept()
+    conn, client_addr = phone.accept() # 当一个连接break之后，程序回到这里，接入下一个连接
+    print(client_addr)
 
     while True:
         # 通过返回的连接对象, 接收客户端消息, 最大接收1024 个字节的消息; 此时服务端有两个 套接字对象
