@@ -18,7 +18,8 @@ while True:
     phone.send(msg.encode('utf-8'))
 
     # 接收消息, 最大接收1024 个字节的消息
-    data = phone.recv(1024).decode('utf-8')
-    print("服务端返回的消息:", data)
+    data = phone.recv(1024).decode('gbk')
+    print("服务端返回的消息:\n", data)
+
 
 phone.close()

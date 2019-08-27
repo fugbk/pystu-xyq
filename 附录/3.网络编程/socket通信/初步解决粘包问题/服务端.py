@@ -2,6 +2,7 @@
 __author__ = "Ang Li"
 
 import socket
+import struct  # 用于填充数据包
 import subprocess
 
 # 生成一个socket 对象
@@ -22,25 +23,30 @@ while True: # 可接收多个链接
     print(client_addr)
 
     while True:
-        # 1. 收取命令， 因为执行命令是字符串，需要解码为 字符串；
+
         cmd = conn.recv(1024).decode('utf-8')
         if not cmd:break
-        print("收到命令:", cmd)
+        print("收到命令：", cmd)
 
-        # 2. 执行命令， 通过subprocess 模块执行， 并分别保存正确，错误 结果信息到管道
-        # 执行命令这里，不能使用 os.system ，因为这样会返回的执行结果只是 状态码
         obj = subprocess.Popen(cmd, shell=True,
                                stdout=subprocess.PIPE,
                                stderr=subprocess.PIPE)
         stdout = obj.stdout.read() # 正确的结果信息，这里的结果信息本身就是二进制格式
         stderr = obj.stderr.read() # 错误的结果信息，这里的结果信息本身就是二进制格式
 
-        print(len(stdout + stderr))
+        # 1、先将数据长度，封装成一个固定长度的包， 发送给客户端
+        total_size = len(stdout+stderr)
+        print("数据长度：",total_size)
+        header = struct.pack('i',total_size) # 字符串格式进行封装，封装后的本身就是二进制的
+        print("报头长度：",len(header))
+        print("\n")
+        conn.send(header)
 
-        # 3. 发送消息, 先发送一个大写消息
-        conn.send(stdout + stderr) # + 还可以优化
+        # 2、发送数据, 借助TCP 的粘包，都发送出去---> 客户端收取的数据长度是正确信息和错误信息
+        conn.send(stdout)
+        conn.send(stderr)
 
     # 关闭链接
     conn.close()
-phone.close()
 
+phone.close()
