@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82d086c8-6589-44a9-8f62-8960aeddd685" name="默认的" comment="文件上传下载">
-      <change afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/文件传输-面向对象版/tets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/文件传输-面向对象版/客户端/sshd_config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/文件传输-面向对象版/客户端/客户端.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/文件传输-面向对象版/服务端/sshd_config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/文件传输-面向对象版/服务端/服务端.py" afterDir="false" />
+    <list default="true" id="82d086c8-6589-44a9-8f62-8960aeddd685" name="默认的" comment="1111" />
+    <list id="a3237cf7-6632-4f62-97bc-64970552a14c" name="1111" comment="">
+      <change afterPath="$PROJECT_DIR$/练习/kernel-rpm-download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习/kernel-use.list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习/test_list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于UDP/客户端.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于UDP/服务端.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,6 +75,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="FullScreen" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/附录/3_网络编程/socket通信" />
     <property name="recentsLimit" value="5" />
@@ -771,6 +774,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="82d086c8-6589-44a9-8f62-8960aeddd685" name="默认的" comment="" />
+      <changelist id="a3237cf7-6632-4f62-97bc-64970552a14c" name="1111" comment="" />
       <created>1560951968932</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -797,7 +801,8 @@
       <workItem from="1566914930711" duration="3004000" />
       <workItem from="1566956528398" duration="536000" />
       <workItem from="1566973066411" duration="7079000" />
-      <workItem from="1567042476079" duration="9819000" />
+      <workItem from="1567042476079" duration="10491000" />
+      <workItem from="1567059911144" duration="8884000" />
     </task>
     <task id="LOCAL-00001" summary="fsfdsaf">
       <created>1561284414125</created>
@@ -918,7 +923,28 @@
       <option name="project" value="LOCAL" />
       <updated>1566988445690</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="面向对象改写文件上传下载">
+      <created>1567059249895</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1567059249895</updated>
+    </task>
+    <task id="LOCAL-00019" summary="1111">
+      <created>1567074171268</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1567074171269</updated>
+    </task>
+    <task id="LOCAL-00020" summary="1111">
+      <created>1567074407569</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1567074407569</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
