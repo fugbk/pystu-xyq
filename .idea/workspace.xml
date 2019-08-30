@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82d086c8-6589-44a9-8f62-8960aeddd685" name="默认的" comment="1111">
+      <change afterPath="$PROJECT_DIR$/练习/downloads/docker-1.13.1-88.git07f3374.el7.centos.x86_64.rpm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习/downloads/docker-1.13.1-91.git07f3374.el7.centos.x86_64.rpm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/附录/3_网络编程/作业/在线FTP程序/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/练习/package_download.log" beforeDir="false" afterPath="$PROJECT_DIR$/练习/package_download.log" afterDir="false" />
     </list>
     <list id="a3237cf7-6632-4f62-97bc-64970552a14c" name="1111" comment="">
       <change afterPath="$PROJECT_DIR$/练习/kernel-rpm-download.py" afterDir="false" />
@@ -11,7 +15,6 @@
       <change afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于UDP/客户端.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于UDP/服务端.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/附录/3_网络编程/socket通信/初步解决粘包问题/客户端.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于TCP/初步解决粘包问题/客户端.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/附录/3_网络编程/socket通信/初步解决粘包问题/服务端.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于TCP/初步解决粘包问题/服务端.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/附录/3_网络编程/socket通信/文件传输-面向对象版/tets.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于TCP/文件传输-面向对象版/tets.py" afterDir="false" />
@@ -86,68 +89,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/.idea/workspace.xml">
-      <ranges>
-        <range start1="12" end1="12" start2="12" end2="31" changelist="a3237cf7-6632-4f62-97bc-64970552a14c" />
-        <range start1="85" end1="91" start2="104" end2="104" changelist="a3237cf7-6632-4f62-97bc-64970552a14c" />
-        <range start1="98" end1="98" start2="111" end2="118" changelist="a3237cf7-6632-4f62-97bc-64970552a14c" />
-        <range start1="111" end1="112" start2="131" end2="132" changelist="a3237cf7-6632-4f62-97bc-64970552a14c" />
-        <range start1="288" end1="289" start2="308" end2="309" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="296" end1="297" start2="316" end2="317" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="301" end1="302" start2="321" end2="322" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="310" end1="311" start2="330" end2="331" changelist="a3237cf7-6632-4f62-97bc-64970552a14c" />
-        <range start1="318" end1="319" start2="338" end2="339" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="323" end1="324" start2="343" end2="344" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="332" end1="333" start2="352" end2="353" changelist="a3237cf7-6632-4f62-97bc-64970552a14c" />
-        <range start1="340" end1="341" start2="360" end2="361" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="345" end1="346" start2="365" end2="366" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="354" end1="355" start2="374" end2="375" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="362" end1="363" start2="382" end2="383" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="367" end1="368" start2="387" end2="388" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="376" end1="377" start2="396" end2="397" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="384" end1="385" start2="404" end2="405" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="389" end1="390" start2="409" end2="410" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="398" end1="399" start2="418" end2="419" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="411" end1="412" start2="431" end2="432" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="420" end1="421" start2="440" end2="441" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="428" end1="429" start2="448" end2="449" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="433" end1="434" start2="453" end2="454" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="442" end1="443" start2="462" end2="463" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="455" end1="456" start2="475" end2="476" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="464" end1="465" start2="484" end2="485" changelist="a3237cf7-6632-4f62-97bc-64970552a14c" />
-        <range start1="472" end1="473" start2="492" end2="493" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="477" end1="478" start2="497" end2="498" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="486" end1="487" start2="506" end2="507" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="494" end1="495" start2="514" end2="515" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="499" end1="500" start2="519" end2="520" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="508" end1="509" start2="528" end2="529" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="521" end1="522" start2="541" end2="542" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="530" end1="531" start2="550" end2="551" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="538" end1="539" start2="558" end2="559" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="543" end1="544" start2="563" end2="564" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="552" end1="553" start2="572" end2="573" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="565" end1="566" start2="585" end2="586" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="574" end1="575" start2="594" end2="595" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="587" end1="588" start2="607" end2="608" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="596" end1="597" start2="616" end2="617" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="604" end1="605" start2="624" end2="625" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="609" end1="610" start2="629" end2="630" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="618" end1="619" start2="638" end2="639" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="631" end1="632" start2="651" end2="652" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="640" end1="641" start2="660" end2="661" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="648" end1="649" start2="668" end2="691" changelist="82d086c8-6589-44a9-8f62-8960aeddd685" />
-        <range start1="653" end1="654" start2="695" end2="718" changelist="a3237cf7-6632-4f62-97bc-64970552a14c" />
-        <range start1="757" end1="759" start2="821" end2="823" changelist="a3237cf7-6632-4f62-97bc-64970552a14c" />
-        <range start1="762" end1="764" start2="826" end2="828" changelist="a3237cf7-6632-4f62-97bc-64970552a14c" />
-        <range start1="804" end1="805" start2="868" end2="869" changelist="a3237cf7-6632-4f62-97bc-64970552a14c" />
-        <range start1="946" end1="947" start2="1010" end2="1018" changelist="a3237cf7-6632-4f62-97bc-64970552a14c" />
-        <range start1="993" end1="994" start2="1064" end2="1067" changelist="a3237cf7-6632-4f62-97bc-64970552a14c" />
-        <range start1="1025" end1="1025" start2="1098" end2="1099" changelist="a3237cf7-6632-4f62-97bc-64970552a14c" />
-        <range start1="1044" end1="1044" start2="1118" end2="1119" changelist="a3237cf7-6632-4f62-97bc-64970552a14c" />
-      </ranges>
-    </file>
   </component>
   <component name="ProjectId" id="1Ol7KjzRaE4nVU5N9VZH3SvQZKh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -312,28 +253,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/附录/3_网络编程/socket通信/文件传输/服务端" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/附录/3_网络编程/socket通信/文件传输/服务端/服务端.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="服务端 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python-stu" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/附录/3.网络编程/socket通信/初步解决粘包问题" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -362,6 +281,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day4/生成器/生成器实现多线程.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="服务端" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-stu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于UDP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于UDP/服务端.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="客户端" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-stu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于UDP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于UDP/客户端.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -788,28 +751,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tets" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python-stu" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/附录/3.网络编程/socket通信/终极解决粘包问题" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/附录/3.网络编程/socket通信/终极解决粘包问题/tets.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="Python.FlaskServer">
       <module name="faceswap" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -880,19 +821,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.生成器实现多线程" />
-      <item itemvalue="Python.tets" />
-      <item itemvalue="Python.服务端 (2)" />
       <item itemvalue="Python.客户端 (1)" />
       <item itemvalue="Python.kernel-rpm-download" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.服务端" />
+      <item itemvalue="Python.客户端" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.kernel-rpm-download" />
+        <item itemvalue="Python.客户端" />
+        <item itemvalue="Python.服务端" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.客户端 (1)" />
-        <item itemvalue="Python.服务端 (2)" />
-        <item itemvalue="Python.tets" />
       </list>
     </recent_temporary>
   </component>
@@ -931,7 +872,7 @@
       <workItem from="1566973066411" duration="7079000" />
       <workItem from="1567042476079" duration="10491000" />
       <workItem from="1567059911144" duration="8982000" />
-      <workItem from="1567128144116" duration="251000" />
+      <workItem from="1567128144116" duration="8694000" />
     </task>
     <task id="LOCAL-00001" summary="fsfdsaf">
       <created>1561284414125</created>
@@ -1073,7 +1014,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567074407569</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="1111">
+      <created>1567074636939</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1567074636939</updated>
+    </task>
+    <task id="LOCAL-00022" summary="1111">
+      <created>1567128446099</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1567128446099</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1120,7 +1075,9 @@
     <MESSAGE value="面向对象-校园IT管理系统各组件功能完成" />
     <MESSAGE value="面向对象进阶-类方法属性方法" />
     <MESSAGE value="文件上传下载" />
-    <option name="LAST_COMMIT_MESSAGE" value="文件上传下载" />
+    <MESSAGE value="面向对象改写文件上传下载" />
+    <MESSAGE value="1111" />
+    <option name="LAST_COMMIT_MESSAGE" value="1111" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1152,10 +1109,11 @@
     <SUITE FILE_PATH="coverage/python_stu$atm__1_.coverage" NAME="atm (1) Coverage Results" MODIFIED="1565680619648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/bin" />
     <SUITE FILE_PATH="coverage/git_repo$json_pickle.coverage" NAME="json&amp;pickle数据序列化 Coverage Results" MODIFIED="1565509535239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/json&amp;pickle数据序列化" />
     <SUITE FILE_PATH="coverage/python_stu$test_modle.coverage" NAME="test_modle Coverage Results" MODIFIED="1566543574807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/附录/2 面向对象进阶" />
+    <SUITE FILE_PATH="coverage/python_stu$test.coverage" NAME="test Coverage Results" MODIFIED="1567072319245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习/downloads" />
     <SUITE FILE_PATH="coverage/git_repo$pickle.coverage" NAME="pickle Coverage Results" MODIFIED="1565510755616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/json&amp;pickle数据序列化" />
     <SUITE FILE_PATH="coverage/python_stu$transfers.coverage" NAME="transfers Coverage Results" MODIFIED="1565681572072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
     <SUITE FILE_PATH="coverage/python_stu$__1_.coverage" NAME="客户端 (1) Coverage Results" MODIFIED="1566985471370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/附录/3_网络编程/socket通信/文件传输/客户端" />
-    <SUITE FILE_PATH="coverage/python_stu$.coverage" NAME="客户端 Coverage Results" MODIFIED="1567058730149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/附录/3_网络编程/socket通信/文件传输-面向对象版/客户端" />
+    <SUITE FILE_PATH="coverage/python_stu$.coverage" NAME="客户端 Coverage Results" MODIFIED="1567133908121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于UDP" />
     <SUITE FILE_PATH="coverage/git_repo$test.coverage" NAME="test Coverage Results" MODIFIED="1565617610031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/bin" />
     <SUITE FILE_PATH="coverage/git_repo$tets.coverage" NAME="tets Coverage Results" MODIFIED="1566916670957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/附录/3.网络编程/socket通信/终极解决粘包问题" />
     <SUITE FILE_PATH="coverage/python_stu$close_shoping.coverage" NAME="close_shoping Coverage Results" MODIFIED="1565672502279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
@@ -1171,6 +1129,7 @@
     <SUITE FILE_PATH="coverage/python_stu$__2_.coverage" NAME="服务端 (2) Coverage Results" MODIFIED="1566985468407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/附录/3_网络编程/socket通信/文件传输/服务端" />
     <SUITE FILE_PATH="coverage/git_repo$pickle_test.coverage" NAME="pickle-test Coverage Results" MODIFIED="1565511328219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/json&amp;pickle数据序列化" />
     <SUITE FILE_PATH="coverage/python_stu$2_2_.coverage" NAME="2.2 反射 Coverage Results" MODIFIED="1566549174952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/附录/2 面向对象进阶" />
+    <SUITE FILE_PATH="coverage/python_stu$kernel_rpm_download.coverage" NAME="kernel-rpm-download Coverage Results" MODIFIED="1567151033055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习" />
     <SUITE FILE_PATH="coverage/python_stu$query.coverage" NAME="query Coverage Results" MODIFIED="1565678785053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
     <SUITE FILE_PATH="coverage/python_stu$IT.coverage" NAME="校园IT管理系统 Coverage Results" MODIFIED="1566444935934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/附录/面向对象" />
     <SUITE FILE_PATH="coverage/git_repo$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1565615794696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4/软件目录结构规范/Atm/core" />
