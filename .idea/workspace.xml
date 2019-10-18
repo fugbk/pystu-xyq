@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82d086c8-6589-44a9-8f62-8960aeddd685" name="默认的" comment="1111">
-      <change afterPath="$PROJECT_DIR$/练习/downloads/docker-1.13.1-88.git07f3374.el7.centos.x86_64.rpm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/downloads/docker-1.13.1-91.git07f3374.el7.centos.x86_64.rpm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/附录/3_网络编程/作业/在线FTP程序/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习/package_download.log" beforeDir="false" afterPath="$PROJECT_DIR$/练习/package_download.log" afterDir="false" />
-    </list>
-    <list id="a3237cf7-6632-4f62-97bc-64970552a14c" name="1111" comment="">
+    <list default="true" id="82d086c8-6589-44a9-8f62-8960aeddd685" name="默认的" comment="重构">
       <change afterPath="$PROJECT_DIR$/练习/kernel-rpm-download.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/练习/kernel-use.list" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/练习/test_list" afterDir="false" />
@@ -107,19 +100,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\python-stu\附录\3_网络编程\socket通信" />
-      <recent name="H:\python-stu\附录\3.网络编程\socket通信\文件传输\服务端" />
-      <recent name="H:\python-stu\附录\3.网络编程\socket通信" />
-      <recent name="F:\git-repo\附录\3.网络编程\socket通信" />
-      <recent name="H:\python-stu\附录\3.网络编程\socket通信\解决粘包问题" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\python-stu\Django\4.wsgiref 添加图片" />
       <recent name="H:\python-stu\附录\3_网络编程\socket通信\基于TCP" />
       <recent name="H:\python-stu\附录\3.网络编程\socket通信\文件传输\服务端" />
       <recent name="H:\python-stu\附录\3.网络编程\socket通信\文件传输\客户端" />
       <recent name="H:\python-stu\附录\面向对象" />
-      <recent name="F:\git-repo\day4\json&amp;pickle数据序列化" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\python-stu\Django\4.wsgiref 添加图片" />
+      <recent name="H:\python-stu\附录\3_网络编程\socket通信" />
+      <recent name="H:\python-stu\附录\3.网络编程\socket通信\文件传输\服务端" />
+      <recent name="H:\python-stu\附录\3.网络编程\socket通信" />
+      <recent name="F:\git-repo\附录\3.网络编程\socket通信" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -864,7 +857,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="82d086c8-6589-44a9-8f62-8960aeddd685" name="默认的" comment="" />
-      <changelist id="a3237cf7-6632-4f62-97bc-64970552a14c" name="1111" comment="" />
+      <changelist id="" name="1111" comment="" />
       <created>1560951968932</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -894,6 +887,7 @@
       <workItem from="1567042476079" duration="10491000" />
       <workItem from="1567059911144" duration="8982000" />
       <workItem from="1567128144116" duration="8694000" />
+      <workItem from="1571360903910" duration="510000" />
     </task>
     <task id="LOCAL-00001" summary="fsfdsaf">
       <created>1561284414125</created>
@@ -1049,7 +1043,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567128446099</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="重构">
+      <created>1571361110708</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1571361110708</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1098,7 +1099,8 @@
     <MESSAGE value="文件上传下载" />
     <MESSAGE value="面向对象改写文件上传下载" />
     <MESSAGE value="1111" />
-    <option name="LAST_COMMIT_MESSAGE" value="1111" />
+    <MESSAGE value="重构" />
+    <option name="LAST_COMMIT_MESSAGE" value="重构" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
