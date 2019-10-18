@@ -2,31 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82d086c8-6589-44a9-8f62-8960aeddd685" name="默认的" comment="重构">
-      <change afterPath="$PROJECT_DIR$/练习/kernel-rpm-download.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/kernel-use.list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/test_list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于UDP/客户端.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于UDP/服务端.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/附录/3_网络编程/socket通信/初步解决粘包问题/客户端.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于TCP/初步解决粘包问题/客户端.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/附录/3_网络编程/socket通信/初步解决粘包问题/服务端.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于TCP/初步解决粘包问题/服务端.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/附录/3_网络编程/socket通信/文件传输-面向对象版/tets.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于TCP/文件传输-面向对象版/tets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/附录/3_网络编程/socket通信/文件传输-面向对象版/客户端/sshd_config" beforeDir="false" afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于TCP/文件传输-面向对象版/客户端/sshd_config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/附录/3_网络编程/socket通信/文件传输-面向对象版/客户端/客户端.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于TCP/文件传输-面向对象版/客户端/客户端.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/附录/3_网络编程/socket通信/文件传输-面向对象版/服务端/sshd_config" beforeDir="false" afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于TCP/文件传输-面向对象版/服务端/sshd_config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/附录/3_网络编程/socket通信/文件传输-面向对象版/服务端/服务端.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于TCP/文件传输-面向对象版/服务端/服务端.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/附录/3_网络编程/socket通信/文件传输/tets.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于TCP/文件传输/tets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/附录/3_网络编程/socket通信/文件传输/客户端/sshd_config" beforeDir="false" afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于TCP/文件传输/客户端/sshd_config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/附录/3_网络编程/socket通信/文件传输/客户端/客户端.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于TCP/文件传输/客户端/客户端.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/附录/3_网络编程/socket通信/文件传输/服务端/sshd_config" beforeDir="false" afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于TCP/文件传输/服务端/sshd_config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/附录/3_网络编程/socket通信/文件传输/服务端/服务端.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于TCP/文件传输/服务端/服务端.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/附录/3_网络编程/socket通信/模拟ssh远程执行命令/客户端.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于TCP/模拟ssh远程执行命令/客户端.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/附录/3_网络编程/socket通信/模拟ssh远程执行命令/服务端.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于TCP/模拟ssh远程执行命令/服务端.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/附录/3_网络编程/socket通信/终极解决粘包问题/tets.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于TCP/终极解决粘包问题/tets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/附录/3_网络编程/socket通信/终极解决粘包问题/客户端.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于TCP/终极解决粘包问题/客户端.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/附录/3_网络编程/socket通信/终极解决粘包问题/服务端.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于TCP/终极解决粘包问题/服务端.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/附录/3_网络编程/socket通信/通信循环/客户端.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于TCP/通信循环/客户端.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/附录/3_网络编程/socket通信/通信循环/服务端.py" beforeDir="false" afterPath="$PROJECT_DIR$/附录/3_网络编程/socket通信/基于TCP/通信循环/服务端.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/1.Socket实现一个web服务器/my_webserver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/1.info/1.Socket实现一个web服务器/my_webserver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/2.wsgi实现web server/wsgi_web_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/1.info/2.wsgi实现web server/wsgi_web_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/3.wsgiref 实现web server 支持多url/wsgi_web_server_urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/1.info/3.wsgiref 实现web server 支持多url/wsgi_web_server_urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/4.wsgiref 添加图片/static_data/img/001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Django/1.info/4.wsgiref 添加图片/static_data/img/001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/4.wsgiref 添加图片/static_data/img/testimg.png" beforeDir="false" afterPath="$PROJECT_DIR$/Django/1.info/4.wsgiref 添加图片/static_data/img/testimg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/4.wsgiref 添加图片/wsgiref_urls_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/1.info/4.wsgiref 添加图片/wsgiref_urls_img.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,11 +83,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\python-stu\Django\1.info" />
       <recent name="H:\python-stu\Django\4.wsgiref 添加图片" />
       <recent name="H:\python-stu\附录\3_网络编程\socket通信\基于TCP" />
       <recent name="H:\python-stu\附录\3.网络编程\socket通信\文件传输\服务端" />
       <recent name="H:\python-stu\附录\3.网络编程\socket通信\文件传输\客户端" />
-      <recent name="H:\python-stu\附录\面向对象" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\python-stu\Django\4.wsgiref 添加图片" />
@@ -887,7 +869,7 @@
       <workItem from="1567042476079" duration="10491000" />
       <workItem from="1567059911144" duration="8982000" />
       <workItem from="1567128144116" duration="8694000" />
-      <workItem from="1571360903910" duration="510000" />
+      <workItem from="1571360903910" duration="1593000" />
     </task>
     <task id="LOCAL-00001" summary="fsfdsaf">
       <created>1561284414125</created>
@@ -1050,7 +1032,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571361110708</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="重构">
+      <created>1571361441855</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1571361441855</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
