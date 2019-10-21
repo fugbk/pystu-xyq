@@ -13,7 +13,8 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) # 这个是 项目 根的绝对路径
+HTML_DIR = os.path.join(BASE_DIR, "html")
 
 
 # Quick-start development settings - unsuitable for production
@@ -51,10 +52,10 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'my_site.urls'
 
-TEMPLATES = [
+TEMPLATES = [ # 处理html 文件
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [HTML_DIR, ],  # 定义html 文件夹的位置，列表 可以存多个位置
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
