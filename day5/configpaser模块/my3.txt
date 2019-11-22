@@ -1,0 +1,16 @@
+[user]
+name = Tom
+password = 123456
+
+[client]
+ip = 192.168.56.1
+hostname = Tmp
+
+[server]
+server-id = 1
+
+[backup]
+back-type = logger back
+unzip = No
+logger-server = 192.168.100.1
+
