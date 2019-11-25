@@ -1,0 +1,23 @@
+六、shutil
+
+高级的 文件、文件夹、压缩包 处理模块
+
+shutil.copyfileobj(fsrc, fdst[, length])
+将文件内容拷贝到另一个文件中，可以部分内容
+
+
+复制代码
+def copyfileobj(fsrc, fdst, length=16*1024):
+    """copy data from file-like object fsrc to file-like object fdst"""
+    while 1:
+        buf = fsrc.read(length)
+        if not buf:
+            break
+        fdst.write(buf)
+复制代码
+shutil.copyfile(src, dst)
+拷贝文件
+
+ View Code
+shutil.copymode(src, dst)
+仅拷贝权限。内容、组、用户均不变
