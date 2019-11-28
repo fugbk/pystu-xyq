@@ -35,12 +35,12 @@ if salary.isdigit():     # 如果是数字类型的 ，则True ， 有些数字�
                 else:
                     print("Sorry not enough manny ！！！")
             else:
-                print("Incorrect selection, please re - enter !!!")
+                print("Incorrect selection, please re正则表达式 - enter !!!")
         elif choice == 'q':
             print("Your shopping list",product_list)
             print("Your salary is",salary)
             exit(0)
         else:
-            print("Incorrect selection, please re - enter !!!")
+            print("Incorrect selection, please re正则表达式 - enter !!!")
 else:
     print("not int!!!")
